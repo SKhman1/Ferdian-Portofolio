@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1C1C1C" />
+    <title>Frame / Visual storyteller</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy reveal">
+            <h1 id="hero-title">Stories<br /><em>in focus.</em></h1>
+            <a class="text-link" href="#work">Scroll to enter <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-figure-wrap">
+            <div class="hero-figure-glow"></div>
+            <img class="hero-figure" src="/hero-figure.png" alt="Portrait of the visual artist" />
+          </div>
+          <div class="hero-stamp" aria-hidden="true">LOOK<br />CLOSER</div>
+        </section>
+
+        <div class="camera-story">
+          <div class="camera-stage">
+            <canvas id="camera-canvas" aria-label="Interactive 3D camera model"></canvas>
+            <div class="scene-status" aria-live="polite">Loading camera study<span>...</span></div>
+          </div>
+          <section id="work" class="camera-section camera-section-front" aria-labelledby="work-title">
+            <div class="camera-copy reveal">
+              <h2 id="work-title">A camera is<br /><em>a second eye.</em></h2>
+              <p>Photography, videography, and edits that keep the human detail in the frame. From first light to the final CapCut timeline, every choice stays close to the feeling.</p>
+              <div class="discipline-list"><span>Portrait</span><span>Motion</span><span>Edit</span></div>
+            </div>
+            <div class="camera-note">Scroll to turn<br />through the frame</div>
+          </section>
+
+          <section id="about" class="camera-section camera-section-back" aria-labelledby="about-title">
+            <div class="about-copy reveal">
+              <h2 id="about-title">Make the<br /><em>ordinary cinematic.</em></h2>
+              <p>He looks for the unplanned beat: a hand mid-gesture, a room after everyone leaves, the half-second before a laugh. The work lives there.</p>
+              <a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+            </div>
+          </section>
+        </div>
+
+        <section class="media-section" aria-labelledby="media-title">
+          <div class="media-heading reveal">
+            <h2 id="media-title">Small cards.<br /><em>Big memories.</em></h2>
+          </div>
+          <div class="archive-grid" aria-label="Selected project notes">
+            <article class="archive-card"><span class="archive-type">01 / PHOTO</span><h3>Night walks<br />in Accra</h3><p>Keep the quiet parts. They usually say the most.</p></article>
+            <article class="archive-card"><span class="archive-type">02 / VIDEO</span><h3>A room full<br />of blue light</h3><p>The best frame is often the one nobody planned.</p></article>
+            <article class="archive-card"><span class="archive-type">03 / EDIT</span><h3>People who<br />move softly</h3><p>Make the ordinary cinematic, then leave room for breath.</p></article>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+          <div class="contact-main reveal">
+            <h2 id="contact-title">Let’s make<br /><em>something stay.</em></h2>
+            <a class="contact-email" href="mailto:ferdianaja@gmail.com">ferdianaja@gmail.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-links">
+            <div class="social-links" aria-label="Social profiles">
+              <a class="social-link" href="https://www.instagram.com/nxphotographyyy/" target="_blank" rel="noreferrer" aria-label="Instagram, nxphotographyyy">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+                <span>Instagram</span><strong>@nxphotographyyy</strong><b aria-hidden="true">↗</b>
+              </a>
+              <a class="social-link" href="https://www.reddit.com/user/Ferdian22/" target="_blank" rel="noreferrer" aria-label="Reddit, Ferdian22">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="7"></circle><path d="M8 13.5h.01M16 13.5h.01M9.5 16c1.5 1 3.5 1 5 0M14.5 6.5l1.5-3 3 1"></path></svg>
+                <span>Reddit</span><strong>Ferdian22</strong><b aria-hidden="true">↗</b>
+              </a>
+              <a class="social-link" href="https://discord.com/users/donalddouglas" target="_blank" rel="noreferrer" aria-label="Discord, donalddouglas">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 6.5c4.3-2.3 8.7-2.3 13 0 1 2.1 1.5 4.5 1.5 7.2-1.5 1.2-3.1 2.1-4.8 2.6l-1.2-1.6c.5-.2 1-.4 1.4-.7-3.3 1.5-5.9 1.5-8.8 0 .4.3.9.6 1.4.7l-1.2 1.6c-1.7-.5-3.3-1.4-4.8-2.6 0-2.7.5-5.1 1.5-7.2Z"></path><circle cx="9" cy="12" r="1"></circle><circle cx="15" cy="12" r="1"></circle></svg>
+                <span>Discord</span><strong>donalddouglas</strong><b aria-hidden="true">↗</b>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
